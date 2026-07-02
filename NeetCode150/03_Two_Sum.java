@@ -1,5 +1,5 @@
+import java.util.*;
 //01 Brute Force Approach()
-
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -16,7 +16,7 @@ class Solution {
 }
 
 //02  HashMap 
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i<nums.length; i++){
